@@ -22,7 +22,7 @@ pod 'GLPlayer'
 
 ## Author
 
-guolei, guolei@knowbox.cn
+guolei, guolei_coder@126.com
 
 ## License
 
