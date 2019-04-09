@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, GLPlayerState) {
  根据URL地址进行播放音频
  @param url url
  */
-- (void)playWithURL: (NSURL *)urlpod ;
+- (void)playWithURL: (NSURL *)url;
 
 /** 暂停当前音频 */
 - (void)pause;
