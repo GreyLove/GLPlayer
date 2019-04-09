@@ -1,0 +1,16 @@
+PODS:
+  - GLPlayer (0.1.0)
+
+DEPENDENCIES:
+  - GLPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  GLPlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GLPlayer: e355a911ef9766e02bd419492e3f3e8fadee1687
+
+PODFILE CHECKSUM: 5abab43deff161661f1d963bb7327e5b3a89bc85
+
+COCOAPODS: 1.4.0

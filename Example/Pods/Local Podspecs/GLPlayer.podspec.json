@@ -1,0 +1,23 @@
+{
+  "name": "GLPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of GLPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guolei/GLPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guolei": "guolei@knowbox.cn"
+  },
+  "source": {
+    "git": "https://github.com/guolei/GLPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GLPlayer/Classes/**/*",
+  "vendored_libraries": "GLPlayer/Classes/**/*.a"
+}

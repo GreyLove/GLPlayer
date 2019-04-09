@@ -1,0 +1,6 @@
+framework module GLPlayer {
+  umbrella header "GLPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
