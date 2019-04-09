@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  支持音频、视频播放（暂时是本地播放，后续更新在线播放、边下载边播放....）
                        DESC
 
   s.homepage         = 'https://github.com/guolei/GLPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guolei' => 'guolei@knowbox.cn' }
+  s.author           = { 'guolei' => '1059395623@qq.com' }
   s.source           = { :git => 'https://github.com/guolei/GLPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
