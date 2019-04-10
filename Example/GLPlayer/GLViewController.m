@@ -7,7 +7,7 @@
 //
 
 #import "GLViewController.h"
-
+#import "GLPlayer.h"
 @interface GLViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[GLPlayer shareInstance] playWithURL:[NSURL URLWithString:@""]];
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GLPlayer'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of GLPlayer.'
+  s.summary          = '支持音频、视频播放（暂时是本地播放，后续更新在线播放、边下载边播放....）'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   支持音频、视频播放（暂时是本地播放，后续更新在线播放、边下载边播放....）
                        DESC
 
-  s.homepage         = 'https://github.com/guolei/GLPlayer'
+  s.homepage         = 'https://github.com/GreyLove/GLPlayer.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guolei' => '1059395623@qq.com' }
@@ -33,6 +33,8 @@ Pod::Spec.new do |s|
   s.source_files = 'GLPlayer/Classes/**/*'
 
   s.vendored_libraries = 'GLPlayer/Classes/**/*.a'
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   # s.resource_bundles = {
   #   'GLPlayer' => ['GLPlayer/Assets/*.png']
   # }
